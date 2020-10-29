@@ -1,0 +1,34 @@
+LoginPage:
+  username: //*[@name="userNum"]
+  password: //*[@name="userPw"]
+  submit_button: //*[@id="in1"]
+SelectCustomer:
+  leftFrame: /html/frameset/frameset/frame[1]
+  customer_message: //*[@id="submenu1"]/div/table/tbody/tr[1]/td/table/tbody/tr[1]/td[2]/table/tbody/tr/td/span/a
+  customer_distribution: //*[@id="submenu1"]/div/table/tbody/tr[1]/td/table/tbody/tr[2]/td[2]/table/tbody/tr/td/span/a
+CreateCustomer:
+  mainframe: mainFrame
+  add_button: /html/body/form/table/tbody/tr[1]/td/table/tbody/tr/td[2]/table/tbody/tr/td[4]/input
+  customer_name: //*[@name="customerName"]
+  customer_email: //*[@name="customerEmail"]
+  close_readonly: customerBirthday
+  customer_birthday: //*[@id="customerBirthday"]
+  create_manager: //*[@name="customerAddMan"]
+  sure_button: //*[@name="submit"]
+UpdateCustomer:
+  mainframe: mainFrame
+  select_customer: /html/body/form/table/tbody/tr[1]/td/table/tbody/tr/td[2]/table/tbody/tr/td[1]/input
+  select_customer_submit: /html/body/form/table/tbody/tr[1]/td/table/tbody/tr/td[2]/table/tbody/tr/td[3]/input
+  update_button: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[13]/div/span/a[1]
+  customerjob: //*[@name="customerJob"]
+  mobilephone: /html/body/form/table[1]/tbody/tr[5]/td[4]/input
+  email: /html/body/form/table[1]/tbody/tr[7]/td[2]/input
+  updatemanager: /html/body/form/table[1]/tbody/tr[10]/td[4]/input
+  submit_button: //*[@name="submit"]
+DistributionCustomer:
+  mainframe: mainFrame
+  customer_message: /html/body/form/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[{}]/td[2]/div/span
+  delete_table_name : customer_info
+  delete_rules: customer_name='{}'
+
+

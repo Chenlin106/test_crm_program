@@ -4,9 +4,9 @@ from HTMLTestRunner import HTMLTestRunner
 
 import sys
 sys.path.append('E:\\.jenkins\\workspace\\test_git')
-from t2020_10_27.crm_sys.util.excel_operation import OperationExcel
-from t2020_10_27.crm_sys.web_page.usermanager.customer_page_add import CustomerPageAdd
-from t2020_10_27.crm_sys.base.use_browser import UseBrowser
+from crm_sys.util.excel_operation import OperationExcel
+from crm_sys.web_page.usermanager.customer_page_add import CustomerPageAdd
+from crm_sys.base.use_browser import UseBrowser
 
 
 

@@ -1,7 +1,7 @@
-from t2020_10_26.crm_sys.util.crm_log import Crm_log
-from t2020_10_26.crm_sys.util.dbperation import MysqlConnection
-from t2020_10_26.crm_sys.util.yaml_opreation import YamlOperation
-from t2020_10_26.crm_sys.web_page.loginpage.login_page import Login
+from crm_sys.util.crm_log import Crm_log
+from crm_sys.util.dbperation import MysqlConnection
+from crm_sys.util.yaml_opreation import YamlOperation
+from crm_sys.web_page.loginpage.login_page import Login
 
 
 class CustomerPage:

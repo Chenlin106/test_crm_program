@@ -1,4 +1,4 @@
-from t2020_10_26.crm_sys.web_page.usermanager.customer_page import CustomerPage
+from crm_sys.web_page.usermanager.customer_page import CustomerPage
 
 class CustomerPageUpdate(CustomerPage):
     def update_customer_message(self,**kwargs):

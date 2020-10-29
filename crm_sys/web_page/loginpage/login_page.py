@@ -1,8 +1,8 @@
-from t2020_10_27.crm_sys.util.crm_log import Crm_log
-from t2020_10_27.crm_sys.util.yaml_opreation import YamlOperation
+from crm_sys.util.crm_log import Crm_log
+from crm_sys.util.yaml_opreation import YamlOperation
 
-from t2020_10_27.crm_sys.base.browser_operation import BrowserOperation
-from t2020_10_27.crm_sys.base.use_browser import UseBrowser
+from crm_sys.base.browser_operation import BrowserOperation
+from crm_sys.base.use_browser import UseBrowser
 
 
 class Login:
